@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+.contenedor{
+    display: flex;
+    height: 100vh; 
+    width: 100%;
+}
+.izquierda {
+    background-color: #008080;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-grow: 2; 
+    min-width: 300px;
+}
+.derecho {
+    background-color: white;
+    padding: 0;
+    box-sizing: border-box;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; 
+    height: 100%;
+}
+.parte-derecha {
+    padding: 20px;
+    box-sizing: border-box;
+    color: #333;
+}
+.parte-alta {
+    flex-grow: 1; 
+    border-bottom: 1px solid #dddcdc;
+}
+.parte-baja {
+    flex-grow: 1; 
+}
